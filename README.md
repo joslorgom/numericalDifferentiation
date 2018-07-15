@@ -47,8 +47,7 @@ We now prove that the previous result does not depend on <img src="https://latex
 The differentiation formula can be further simplified by considering a function <img src="https://latex.codecogs.com/gif.latex?g%20%5Cleft%28%20z%20%5Cright%29%20%3D%20%5Cleft%28%20z%20-%20z_0%20%5Cright%29%5En%20f%20%5Cleft%28%20z%20%5Cright%29"> which is analytic in <img src="https://latex.codecogs.com/gif.latex?D_r">. Then the following holds,
 
 <p align="center">
-  <img src="https://latex.codecogs.com/gif.latex?g%20%5Cleft%28%20z_0%20%5Cright%29%20%3D%20%5Cint_0%5E1%20g%20%5Cleft%28%20z_0%20&plus;%20r%20e%5E%7Bi%202%20%5Cpi%20t%7D%20%5Cright%29%20%5Cmathrm%7Bd%7Dt%20%3D%20%5Cint_0%5E1%20f%20%5Cleft%28%20z_0%20&plus;%20r%20e%5E%7Bi%202%20%5Cpi%20t%7D%20%5Cright%29%20e%5E%7Bi%202%20%5Cpi%20n%20t%7D%20%5Cmathrm%7Bd%7Dt%20%3D%200.
-">
+  <img src="https://latex.codecogs.com/gif.latex?g%20%5Cleft%28%20z_0%20%5Cright%29%20%3D%20%5Cint_0%5E1%20g%20%5Cleft%28%20z_0%20&plus;%20r%20e%5E%7Bi%202%20%5Cpi%20t%7D%20%5Cright%29%20%5Cmathrm%7Bd%7Dt%20%3D%20%5Cint_0%5E1%20f%20%5Cleft%28%20z_0%20&plus;%20r%20e%5E%7Bi%202%20%5Cpi%20t%7D%20%5Cright%29%20e%5E%7Bi%202%20%5Cpi%20n%20t%7D%20%5Cmathrm%7Bd%7Dt%20%3D%200.">
 </p>
 
 Adding or substracting this result to the differentiation formula one finally gets
