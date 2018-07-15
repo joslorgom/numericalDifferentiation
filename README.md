@@ -32,7 +32,11 @@ with <img src="https://latex.codecogs.com/gif.latex?%5Cgamma"> a closed curve be
   <img src="https://latex.codecogs.com/gif.latex?z%20%3D%20z_0%20&plus;%20r%20e%5E%7Bi%20%5Ctheta%7D%2C%20%5Cquad%200%20%5Cleq%20%5Ctheta%20%3C%202%20%5Cpi.">
 </p>
 
+Substituting this parametrization in Cauchy's integral formula and introducing the change of variable <img src="https://latex.codecogs.com/gif.latex?%5Ctheta%20%3D%202%20%5Cpi%20t"> yields
 
+<p align="center">
+  <img src="https://latex.codecogs.com/gif.latex?f%5E%7B%5Cleft%28%20n%20%5Cright%29%7D%20%5Cleft%28%20z_0%20%5Cright%29%20%3D%20%5Cfrac%7Bn%21%7D%7Br%5En%7D%20%5Cint_0%5E1%20f%20%5Cleft%28%20z_0%20&plus;%20r%20e%5E%7Bi%202%20%5Cpi%20t%7D%20%5Cright%29%20e%5E%7B-i%202%20%5Cpi%20n%20t%7D%20%5Cmathrm%7Bd%7Dt.">
+</p>
 
 ## References
 
