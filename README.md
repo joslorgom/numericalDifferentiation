@@ -38,6 +38,25 @@ Substituting this parametrization in Cauchy's integral formula and introducing t
   <img src="https://latex.codecogs.com/gif.latex?f%5E%7B%5Cleft%28%20n%20%5Cright%29%7D%20%5Cleft%28%20z_0%20%5Cright%29%20%3D%20%5Cfrac%7Bn%21%7D%7Br%5En%7D%20%5Cint_0%5E1%20f%20%5Cleft%28%20z_0%20&plus;%20r%20e%5E%7Bi%202%20%5Cpi%20t%7D%20%5Cright%29%20e%5E%7B-i%202%20%5Cpi%20n%20t%7D%20%5Cmathrm%7Bd%7Dt.">
 </p>
 
+We now prove that the previous result does not depend on <img src="https://latex.codecogs.com/gif.latex?r">, at least theoretically, as long as the function <img src="https://latex.codecogs.com/gif.latex?f%20%5Cleft%28%20z%20%5Cright%29"> is analytic in <img src="https://latex.codecogs.com/gif.latex?D_r">. Let us take the derivative of with respect to <img src="https://latex.codecogs.com/gif.latex?r">,
+
+<p align="center">
+  <img src="https://latex.codecogs.com/gif.latex?%5Cbegin%7Balign*%7D%20%5Cfrac%7B%5Cpartial%20f%5E%7B%5Cleft%28%20n%20%5Cright%29%7D%20%5Cleft%28%20z_0%20%5Cright%29%7D%7B%5Cpartial%20r%7D%20%3D%20%26%20-%20n%21%20n%20r%5E%7B-n-1%7D%20%5Cint_0%5E1%20f%20%5Cleft%28%20z_0%20&plus;%20r%20e%5E%7Bi%202%20%5Cpi%20t%7D%20%5Cright%29%20e%5E%7B-i%202%20%5Cpi%20n%20t%7D%20%5Cmathrm%7Bd%7Dt%20&plus;%20n%21%20r%5E%7B-n%7D%20%5Cint_0%5E1%20f%5E%5Cprime%20%5Cleft%28%20z_0%20&plus;%20r%20e%5E%7Bi%202%20%5Cpi%20t%7D%20%5Cright%29%20e%5E%7B-i%202%20%5Cpi%20%5Cleft%28%20n%20-%201%20%5Cright%29%20t%7D%20%5Cmathrm%7Bd%7Dt%20%3D%20%5C%5C%20%3D%20%26%20-n%20r%5E%7B-1%7D%20f%5E%7B%5Cleft%28%20n%20%5Cright%29%7D%20%5Cleft%28%20z_0%20%5Cright%29%20&plus;%20n%20r%5E%7B-1%7D%20%5Cleft%28%20n-1%20%5Cright%29%21%20r%5E%7B-%5Cleft%28%20n-1%5Cright%29%7D%20%5Cint_0%5E1%20f%5E%5Cprime%20%5Cleft%28%20z_0%20&plus;%20r%20e%5E%7Bi%202%20%5Cpi%20t%7D%20%5Cright%29%20e%5E%7B-i%202%20%5Cpi%20%5Cleft%28%20n%20-%201%20%5Cright%29t%7D%20%5Cmathrm%7Bd%7Dt%20%3D%200.%20%5Cend%7Balign*%7D">
+</p>
+
+The differentiation formula can be further simplified by considering a function <img src="https://latex.codecogs.com/gif.latex?g%20%5Cleft%28%20z%20%5Cright%29%20%3D%20%5Cleft%28%20z%20-%20z_0%20%5Cright%29%5En%20f%20%5Cleft%28%20z%20%5Cright%29"> which is analytic in <img src="https://latex.codecogs.com/gif.latex?D_r">. Then the following holds,
+
+<p align="center">
+  <img src="https://latex.codecogs.com/gif.latex?g%20%5Cleft%28%20z_0%20%5Cright%29%20%3D%20%5Cint_0%5E1%20g%20%5Cleft%28%20z_0%20&plus;%20r%20e%5E%7Bi%202%20%5Cpi%20t%7D%20%5Cright%29%20%5Cmathrm%7Bd%7Dt%20%3D%20%5Cint_0%5E1%20f%20%5Cleft%28%20z_0%20&plus;%20r%20e%5E%7Bi%202%20%5Cpi%20t%7D%20%5Cright%29%20e%5E%7Bi%202%20%5Cpi%20n%20t%7D%20%5Cmathrm%7Bd%7Dt%20%3D%200.
+">
+</p>
+
+Adding or substracting this result to the differentiation formula one finally gets
+
+<p align="center">
+  <img src="https://latex.codecogs.com/gif.latex?%5Cbegin%7Balign*%7D%20f%5E%7B%5Cleft%28%20n%20%5Cright%29%7D%20%5Cleft%28%20z_0%20%5Cright%29%20%3D%20%26%20%5Cfrac%7B2%20n%21%7D%7Br%5En%7D%20%5Cint_0%5E1%20f%20%5Cleft%28%20z_0%20&plus;%20r%20e%5E%7Bi%202%20%5Cpi%20t%7D%20%5Cright%29%20%5Ccos%20%5Cleft%28%202%20%5Cpi%20n%20t%20%5Cright%29%20%5Cmathrm%7Bd%7Dt%20%3D%20%5C%5C%20%3D%20%26%20%5Cfrac%7B-2%20i%20n%21%7D%7Br%5En%7D%20%5Cint_0%5E1%20f%20%5Cleft%28%20z_0%20&plus;%20r%20e%5E%7Bi%202%20%5Cpi%20t%7D%20%5Cright%29%20%5Csin%20%5Cleft%28%202%20%5Cpi%20n%20t%20%5Cright%29%20%5Cmathrm%7Bd%7Dt.%20%5Cend%7Balign*%7D">
+</p>
+
 ## References
 
 * [Numerical differentiation - Wikipedia](https://en.wikipedia.org/wiki/Numerical_differentiation)
